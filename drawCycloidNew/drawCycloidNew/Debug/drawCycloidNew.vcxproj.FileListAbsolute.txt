@@ -1,0 +1,6 @@
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\drawCycloidNew\drawCycloidNew\Debug\drawCycloidNew.vcxproj.AssemblyReference.cache
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\drawCycloidNew\drawCycloidNew\Debug\drawCycloidNew.Form1.resources
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\drawCycloidNew\drawCycloidNew\Debug\drawCycloidNew.vcxproj.GenerateResource.cache
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\Working Folder\drawCycloidNew\drawCycloidNew\Debug\drawCycloidNew.vcxproj.AssemblyReference.cache
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\Working Folder\drawCycloidNew\drawCycloidNew\Debug\drawCycloidNew.Form1.resources
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\Working Folder\drawCycloidNew\drawCycloidNew\Debug\drawCycloidNew.vcxproj.GenerateResource.cache
