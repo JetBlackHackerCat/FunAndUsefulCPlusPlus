@@ -3,7 +3,7 @@
 #include <windows.h>   /* required before including mmsystem.h */
 #include <mmsystem.h>  /* multimedia functions (such as MIDI) for Windows */
 #include <atlstr.h>
-#pragma comment(lib, "Winmm.lib")
+#pragma comment(lib, "Winmm.lib") //Link the Winmm.lib to the EXE
 using namespace std;
 
 inline int MidiPlayFile(string filePath)
