@@ -9,25 +9,26 @@ using namespace std;
 
 typedef struct  WAV_HEADER
 {
-    char                RIFF[4];        // RIFF Header     a.k.a Magic header
-    unsigned long       ChunkSize;      // RIFF Chunk Size  
-    char                WAVE[4];        // WAVE Header      
-    char                FMT[4];         // FMT header       
-    unsigned long       Subchunk1Size;  // Size of the fmt chunk                                
-    unsigned short      AudioFormat;   // Audio format 1=PCM,6=mulaw,7=alaw, 257=IBM Mu-Law, 258=IBM A-Law, 259=ADPCM */
-    unsigned short      NumOfChan;      // Number of channels 1=Mono 2=Sterio                    
-    unsigned long       SamplesPerSec;  // Sampling Frequency in Hz                              
+    char                riff[4];        // RIFF Header
+    unsigned long       chunksize;      // RIFF Chunk Size  
+    char                wave[4];        // WAVE Header      
+    char                fmt[4];         // FMT header       
+    unsigned long       subchunk1Size;  // Size of the fmt chunk                                
+    unsigned short      audioFormat;   // Audio format code 1=PCM,6=mulaw,7=alaw, 257=IBM Mu-Law, 258=IBM A-Law, 259=ADPCM */
+    unsigned short      numOfChannels;      // Number of channels 1=Mono 2=Stereo                    
+    unsigned long       samplesPerSec;  // Sampling frequency in Hz                              
     unsigned long       bytesPerSec;    // bytes per second  
     unsigned short      blockAlign;     // 2=16-bit mono, 4=16-bit stereo  
     unsigned short      bitsPerSample;  // Number of bits per sample  
-    char                Subchunk2ID[4]; // "data"  string    
-    unsigned long       Subchunk2Size;  // Sampled data length     
-}wav_hdr;
+    char                subchunk2ID[4]; // "data" of song in string    
+    unsigned long       subchunk2Size;  // Sampled data length     
+}wav_header;
 
-union Memory    // Declare union
+
+union Memory   
 {
-    char block[]; //character array used for when pulling in data
-    wav_hdr Info; //The WAV_HEADER variable that seperates it out
+    char block[]; //character array 
+    wav_header Info; //The WAV_HEADER variable that seperates it out
 };
 
 inline int FileSize(std::ifstream& inFile)
@@ -39,36 +40,45 @@ inline int FileSize(std::ifstream& inFile)
     return fileSize;
 }
 
-inline int WAVExample()
+inline BOOL PlayWav(string filePath)
 {
+   BOOL played = PlaySoundW((CString)filePath.c_str(), NULL, SND_FILENAME | SND_ASYNC);
+   if(played)
+        system("PAUSE");
+
+    return played;
+
+}
 
 
+
+
+inline int WAVExample(string filePath)
+{
     Memory wavHeader;
-    int headerSize = sizeof(wav_hdr);//set the headersize
+    int headerSize = sizeof(wav_header);//set the headersize
     int filesize = 0;
-    ifstream wavFile("../../Ch13/t2_learning_computer_x.wav");//set absolute path of ifstream object
+    ifstream wavFile(filePath);//set absolute path of ifstream object
     if (!wavFile )//error handling
     {
         cout << "Can not able to open wave file\n";
         return 1;
     }
 
-    wavFile.read(wavHeader.block, headerSize);//read it in and store the data into the character array for a set size of header
+    wavFile.read(wavHeader.block, headerSize);
 
     filesize = FileSize(wavFile);//get the file size
     wavFile.close();//close stream
     cout << "File is " << filesize << " bytes.\n\n";
-    cout << "RIFF header\t-->" << string(wavHeader.Info.RIFF, 4) << endl;
-    cout << "WAVE header\t-->" << string(wavHeader.Info.WAVE, 4) << endl;
-    cout << "FMT\t-->" << string(wavHeader.Info.FMT, 4) << endl;
-    cout << "Data size (based on bits used)\t-->" << wavHeader.Info.ChunkSize << endl;
-
-    // Display the sampling Rate form the header
-    cout << "Sampling Rate\t-->" << wavHeader.Info.SamplesPerSec << endl; //Sampling frequency of the wav file
-    cout << "Number of bits used\t-->" << wavHeader.Info.bitsPerSample << endl; //Number of bits used per sample
-    cout << "Number of channels\t-->" << wavHeader.Info.bitsPerSample << endl;     //Number of channels (mono=1/sterio=2)
-    cout << "Number of bytes per second\t-->" << wavHeader.Info.bytesPerSec << endl;   //Number of bytes per second
-    cout << "data length\t-->" << wavHeader.Info.Subchunk2Size << endl;
+    cout << "RIFF header\t-->" << string(wavHeader.Info.riff, 4) << endl;
+    cout << "WAVE header\t-->" << string(wavHeader.Info.wave, 4) << endl;
+    cout << "FMT\t-->" << string(wavHeader.Info.fmt, 4) << endl;
+    cout << "Data size (based on bits used)\t-->" << wavHeader.Info.chunksize << endl;
+    cout << "Sampling Rate\t-->" << wavHeader.Info.samplesPerSec << endl; 
+    cout << "Number of bits used\t-->" << wavHeader.Info.bitsPerSample << endl;
+    cout << "Number of channels\t-->" << wavHeader.Info.bitsPerSample << endl;    
+    cout << "Number of bytes per second\t-->" << wavHeader.Info.bytesPerSec << endl;  
+    cout << "data length\t-->" << wavHeader.Info.subchunk2Size << endl;
 
     getchar();
 
