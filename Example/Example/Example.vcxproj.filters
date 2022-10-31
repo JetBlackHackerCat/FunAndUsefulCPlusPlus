@@ -18,8 +18,11 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Ch15\Security.cpp">
+    <ClCompile Include="..\..\Ch13\MidiProcessing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Ch13\Never-Gonna-Give-You-Up-3.mid" />
   </ItemGroup>
 </Project>
