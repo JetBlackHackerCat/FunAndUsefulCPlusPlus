@@ -1,0 +1,3 @@
+﻿  creditcard.cpp
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\creditcard\creditcard\creditcard.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  creditcard.vcxproj -> C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\creditcard\Debug\creditcard.exe
