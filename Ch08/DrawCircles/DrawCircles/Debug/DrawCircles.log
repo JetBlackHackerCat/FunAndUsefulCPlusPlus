@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+  Form1.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  DrawCircles.vcxproj -> C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCircles\Debug\DrawCircles.exe
