@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIForm2\GUIForm2\Form1.h(386,27): warning C4101: 'z': unreferenced local variable
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIForm2\GUIForm2\Form1.h(393,27): warning C4101: 'z': unreferenced local variable
+  Form1.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  GUIForm2.vcxproj -> C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIForm2\Debug\GUIForm2.exe
