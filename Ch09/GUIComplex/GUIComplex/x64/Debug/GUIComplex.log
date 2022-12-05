@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIComplex\GUIComplex\Form1.h(414,55): warning C4101: 'angleprod': unreferenced local variable
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIComplex\GUIComplex\Form1.h(414,43): warning C4101: 'radiusprod': unreferenced local variable
+  Form1.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  GUIComplex.vcxproj -> C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIComplex\x64\Debug\GUIComplex.exe
