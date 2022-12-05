@@ -1,0 +1,6 @@
+﻿  polynomial.cpp
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\PolyNew2\PolyNew2\polynomial.cpp(78,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\PolyNew2\PolyNew2\polynomial.cpp(76,6): warning C4101: 'x': unreferenced local variable
+  polynomialtest.cpp
+  Generating Code...
+  PolyNew2.vcxproj -> C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\PolyNew2\x64\Debug\PolyNew2.exe
