@@ -1,0 +1,54 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(75,27): error C3861: 'CreateGraphics': identifier not found
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(76,54): error C2750: 'System::Drawing::SolidBrush': cannot use 'new' on the reference type; use 'gcnew' instead
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(76,54): error C2664: 'System::Drawing::SolidBrush::SolidBrush(System::Drawing::Color)': cannot convert argument 1 from 'System::Drawing::SolidBrush *' to 'System::Drawing::Color'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(76,40): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(76): message : see declaration of 'System::Drawing::SolidBrush::SolidBrush'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(77,9): error C2882: 'System': illegal use of namespace identifier in expression
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(77,22): error C2146: syntax error: missing ';' before identifier 'myPen'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(77,22): error C2065: 'myPen': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(77,34): error C2061: syntax error: identifier 'System'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(80,3): error C2059: syntax error: 'private'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(81,3): error C2059: syntax error: 'private'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(82,3): error C2059: syntax error: 'public'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(83,12): error C2374: 'formGraphics': redefinition; multiple initialization
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(75): message : see declaration of 'formGraphics'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(83,27): error C3861: 'CreateGraphics': identifier not found
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(88,3): error C2065: 'myPen': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(88,23): error C2882: 'System': illegal use of namespace identifier in expression
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(92,25): error C2065: 'myPen': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(92,32): error C2065: 'a': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(92,40): error C2065: 'b': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(92,44): error C2065: 'r': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(92,51): error C2065: 'a': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(92,61): error C2065: 'b': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(92,65): error C2065: 'r': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(97,17): error C2065: 'PI': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(99,3): error C2065: 'myPen': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(99,23): error C2882: 'System': illegal use of namespace identifier in expression
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(104,29): error C2275: 'CppCLR_WinformsProjekt::Form1': illegal use of this type as an expression
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(15): message : see declaration of 'CppCLR_WinformsProjekt::Form1'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(106,4): error C2065: 'myPen': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(107,4): error C3861: 'drawBigCircle': identifier not found
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(112,4): error C2065: 'myPen': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(112,24): error C2882: 'System': illegal use of namespace identifier in expression
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(114,4): error C3861: 'drawBigCircle': identifier not found
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(115,4): error C2065: 'myPen': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(115,24): error C2882: 'System': illegal use of namespace identifier in expression
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(117,4): error C3861: 'drawSmallCircle': identifier not found
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(119,41): error C2750: 'System::Drawing::Font': cannot use 'new' on the reference type; use 'gcnew' instead
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(119,18): error C3673: 'System::Drawing::Font': class does not have a copy-constructor
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(121,4): error C2065: 'Thread': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(126,3): error C2065: 'myPen': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(127,23): error C2039: 'Dispose': is not a member of 'System::Drawing::Graphics'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(127,23): message : You should invoke the destructor, '~Graphics' instead
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(130,2): error C2059: syntax error: 'public'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(131,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(131,2): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(154,2): error C2059: syntax error: 'public'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(155,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\DrawCycloid\DrawCycloid\Form1.h(155,2): error C2447: '{': missing function header (old-style formal list?)
+  Form1.cpp
+  Generating Code...

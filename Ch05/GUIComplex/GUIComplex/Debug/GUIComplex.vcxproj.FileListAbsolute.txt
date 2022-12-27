@@ -1,0 +1,3 @@
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIComplex\GUIComplex\Debug\GUIComplex.vcxproj.AssemblyReference.cache
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIComplex\GUIComplex\Debug\GUIComplex.Form1.resources
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIComplex\GUIComplex\Debug\GUIComplex.vcxproj.GenerateResource.cache

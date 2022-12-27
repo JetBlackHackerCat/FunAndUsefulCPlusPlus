@@ -1,0 +1,13 @@
+﻿  juliandays.cpp
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(1,17): error C2065: '_gc': undeclared identifier
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3,1): error C2059: syntax error: 'for'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3,1): error C2143: syntax error: missing ')' before ';'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3,19): error C2143: syntax error: missing ';' before '<'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3,26): error C2143: syntax error: missing ';' before '+='
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3,24): error C2086: 'int j': redefinition
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3): message : see declaration of 'j'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(3,28): error C2059: syntax error: ')'
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(5,4): error C2143: syntax error: missing ';' before '+='
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\juliandays\juliandays\juliandays.cpp(5,4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int

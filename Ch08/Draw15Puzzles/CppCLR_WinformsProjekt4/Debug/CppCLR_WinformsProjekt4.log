@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\Draw15Puzzles\CppCLR_WinformsProjekt4\Form1.h(138,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\Draw15Puzzles\CppCLR_WinformsProjekt4\Form1.h(138,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\Draw15Puzzles\CppCLR_WinformsProjekt4\Form1.h(194,113): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\Draw15Puzzles\CppCLR_WinformsProjekt4\Form1.h(194,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Form1.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CppCLR_WinformsProjekt4.vcxproj -> C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\Draw15Puzzles\Debug\CppCLR_WinformsProjekt4.exe

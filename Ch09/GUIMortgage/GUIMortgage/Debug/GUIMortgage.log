@@ -1,0 +1,4 @@
+﻿  CppCLR_WinformsProjekt.cpp
+c:\users\hongchuan\c drive data\linus books\cc++ code 2nd edition\guimortgage\guimortgage\form1.h(259): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  GUIMortgage.vcxproj -> C:\Users\HONGCHUAN\C Drive Data\Linus Books\CC++ code 2nd edition\GUIMortgage\Debug\GUIMortgage.exe
