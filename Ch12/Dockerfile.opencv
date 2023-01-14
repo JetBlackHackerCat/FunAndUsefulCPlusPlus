@@ -1,0 +1,18 @@
+# FROM gcc:12
+# ARG project
+# COPY /src/$project /usr/src
+# WORKDIR /usr/src
+# RUN g++ *.cpp -o fun -pthread
+# CMD ["./fun"]
+
+FROM ubuntu:22.04
+
+# Download OpenCV
+RUN apt update && apt install -y g++ cmake wget unzip
+RUN wget -O opencv.zip https://github.com/opencv/opencv/archive/4.x.zip
+RUN unzip opencv.zip
+
+# Install OpenCV
+RUN mkdir -p build && cd build
+RUN cmake  ../opencv-4.x
+RUN cmake --build .
