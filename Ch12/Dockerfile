@@ -5,6 +5,7 @@ COPY /asset /usr/asset
 WORKDIR /usr/src
 RUN mkdir build
 WORKDIR /usr/src/build
+RUN mkdir output
 RUN cmake ..
 RUN make
 CMD ["./fun"]
